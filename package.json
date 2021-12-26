@@ -1,0 +1,15 @@
+{
+  "main": "./src/js/app.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "rm -r ./public",
+    "start": "npm run build && node ./src/js/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
